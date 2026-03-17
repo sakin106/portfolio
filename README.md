@@ -3,7 +3,7 @@
 A personal portfolio website built with vanilla HTML, CSS, and JavaScript. Features smooth GSAP animations, a custom cursor, and project showcases.
 
 ## Live Demo
-🔗 [yourname.vercel.app](https://yourname.vercel.app)
+🔗 🔗 [sakin-bin-jabed.vercel.app](https://sakin-bin-jabed.vercel.app)
 
 ---
 
