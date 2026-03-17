@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sakin Bin Jabed — AI Automation Developer</title>
+  <meta name="description" content="Sakin Bin Jabed is a freelance AI Automation Developer specializing in n8n workflows, AI agents, and API integrations that help businesses save time and reduce manual work." />
+  <meta name="keywords" content="AI Automation, n8n, Freelance Developer, AI Agent, Workflow Automation, API Integration" />
+  <meta property="og:title" content="Sakin Bin Jabed — AI Automation Developer" />
+  <meta property="og:description" content="I build AI-powered automation systems that help businesses save time and reduce manual work." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor-outer"></div>
+  <div id="cursor-dot"></div>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">SBJ<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Work</a></li>
+        <li><a href="#why-me" class="nav-link">Why Me</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-nav magnetic-btn"><span>Let's Talk</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#projects" class="mobile-link">Work</a></li>
+        <li><a href="#why-me" class="mobile-link">Why Me</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section id="hero">
+    <div class="hero-grid-bg"><div class="grid-lines"></div></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal-item">
+        <span class="badge-dot"></span>
+        Available for freelance projects
+      </div>
+
+      <h1 class="hero-heading">
+        <span class="word-line"><span class="word-reveal">I Build AI</span></span>
+        <span class="word-line"><span class="word-reveal accent">Systems</span> <span class="word-reveal">That</span></span>
+        <span class="word-line"><span class="word-reveal">Actually</span> <span class="word-reveal italic-text">Work.</span></span>
+      </h1>
+
+      <p class="hero-sub reveal-item">
+        n8n · AI Agents · API Integration · RAG Systems<br />
+        I don't quit until it works.
+      </p>
+
+      <div class="hero-cta reveal-item">
+        <a href="#projects" class="btn btn-primary magnetic-btn"><span>See My Work</span></a>
+        <a href="#contact" class="btn btn-ghost magnetic-btn"><span>Let's Talk →</span></a>
+      </div>
+
+      <div class="hero-stats reveal-item">
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">AI Systems Built</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Project Completion</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">0</span>
+          <span class="stat-label">Unsolved Problems</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label reveal-up">// About Me</div>
+      <div class="about-grid">
+        <div class="about-image-wrap reveal-up">
+          <div class="about-img-frame">
+            <img src="images/profile.jpg" alt="Sakin Bin Jabed — AI Automation Developer" class="about-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="about-img-placeholder">
+              <div class="img-initials">SBJ</div>
+            </div>
+            <div class="img-decoration"></div>
+          </div>
+        </div>
+
+        <div class="about-text reveal-up">
+          <h2 class="section-heading">The Developer<br /><span class="accent">Behind the System</span></h2>
+          <p class="about-bio">
+            I'm <strong>Sakin Bin Jabed</strong> — an AI Automation Developer who builds systems that make businesses
+            genuinely smarter. I specialize in turning complex business processes into sleek, automated workflows using
+            n8n, AI agents, and deep API integrations.
+          </p>
+          <p class="about-bio">
+            My approach is simple: understand the problem fully, engineer a clean solution, and iterate until it's
+            bulletproof. I don't quit until it works — and works well.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Problem Solver</span>
+            <span class="tag">Systems Thinker</span>
+            <span class="tag">Automation First</span>
+            <span class="tag">Always Shipping</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES ==================== -->
+  <section id="services" class="section section-dark">
+    <div class="container">
+      <div class="section-label reveal-up">// What I Do</div>
+      <h2 class="section-heading centered reveal-up">Services That<br /><span class="accent">Drive Results</span></h2>
+      <p class="section-sub centered reveal-up">End-to-end automation solutions tailored to your business needs.</p>
+
+      <div class="services-grid">
+        <div class="service-card reveal-up" data-delay="0">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14l3 3m0 0l3-3m-3 3V14" />
+            </svg>
+          </div>
+          <h3 class="service-title">Workflow Automation</h3>
+          <p class="service-desc">End-to-end automation using n8n and Zapier — connecting your tools, triggering actions, and eliminating repetitive manual tasks across your operations.</p>
+          <div class="service-tech">n8n · Zapier · Webhooks</div>
+        </div>
+
+        <div class="service-card reveal-up" data-delay="1">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="3" />
+              <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+            </svg>
+          </div>
+          <h3 class="service-title">AI Agent Development</h3>
+          <p class="service-desc">Custom AI agents powered by OpenAI and Gemini — chat assistants and RAG-based support systems trained on your own data and deployed on any platform.</p>
+          <div class="service-tech">OpenAI · RAG · Pinecone · LangChain</div>
+        </div>
+
+        <div class="service-card reveal-up" data-delay="2">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M8 9l3 3-3 3M13 15h3M3 4h18v16H3z" />
+            </svg>
+          </div>
+          <h3 class="service-title">API & Webhook Integration</h3>
+          <p class="service-desc">Seamlessly connect third-party platforms with custom REST API integrations, webhook setups, and real-time data pipelines between your services.</p>
+          <div class="service-tech">REST API · Webhooks · Google Sheets · Telegram</div>
+        </div>
+
+        <div class="service-card reveal-up" data-delay="3">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg>
+          </div>
+          <h3 class="service-title">Customer Support AI</h3>
+          <p class="service-desc">Deploy AI-powered chat support on WhatsApp, Telegram, or your website — handling FAQs, routing tickets, and resolving queries 24/7 without human intervention.</p>
+          <div class="service-tech">WhatsApp · Telegram · OpenAI · Redis</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS MARQUEE ==================== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-label reveal-up">// Tech Stack</div>
+      <h2 class="section-heading centered reveal-up">Tools I <span class="accent">Master</span></h2>
+    </div>
+
+    <div class="marquee-wrapper reveal-up">
+      <div class="marquee-track">
+        <div class="marquee-content">
+          <span class="skill-pill">n8n</span>
+          <span class="skill-pill">Zapier</span>
+          <span class="skill-pill">Pinecone</span>
+          <span class="skill-pill">OpenAI</span>
+          <span class="skill-pill">Google Gemini</span>
+          <span class="skill-pill">RAG Systems</span>
+          <span class="skill-pill">AI Agents</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">Webhooks</span>
+          <span class="skill-pill">REST API</span>
+          <span class="skill-pill">Airtable</span>
+          <span class="skill-pill">Google Sheets</span>
+          <span class="skill-pill">Telegram API</span>
+          <span class="skill-pill">Prompt Engineering</span>
+          <span class="skill-pill">Redis</span>
+          <span class="skill-pill">LangChain</span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span class="skill-pill">n8n</span>
+          <span class="skill-pill">Zapier</span>
+          <span class="skill-pill">Pinecone</span>
+          <span class="skill-pill">OpenAI</span>
+          <span class="skill-pill">Google Gemini</span>
+          <span class="skill-pill">RAG Systems</span>
+          <span class="skill-pill">AI Agents</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">Webhooks</span>
+          <span class="skill-pill">REST API</span>
+          <span class="skill-pill">Airtable</span>
+          <span class="skill-pill">Google Sheets</span>
+          <span class="skill-pill">Telegram API</span>
+          <span class="skill-pill">Prompt Engineering</span>
+          <span class="skill-pill">Redis</span>
+          <span class="skill-pill">LangChain</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee-wrapper marquee-reverse reveal-up" style="margin-top:1rem;">
+      <div class="marquee-track">
+        <div class="marquee-content">
+          <span class="skill-pill accent-pill">Workflow Automation</span>
+          <span class="skill-pill accent-pill">API Integration</span>
+          <span class="skill-pill accent-pill">AI Systems Design</span>
+          <span class="skill-pill accent-pill">Vector Databases</span>
+          <span class="skill-pill accent-pill">Chat Automation</span>
+          <span class="skill-pill accent-pill">Data Pipelines</span>
+          <span class="skill-pill accent-pill">Business Logic</span>
+          <span class="skill-pill accent-pill">Real-time Triggers</span>
+          <span class="skill-pill accent-pill">System Architecture</span>
+          <span class="skill-pill accent-pill">Customer Support AI</span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span class="skill-pill accent-pill">Workflow Automation</span>
+          <span class="skill-pill accent-pill">API Integration</span>
+          <span class="skill-pill accent-pill">AI Systems Design</span>
+          <span class="skill-pill accent-pill">Vector Databases</span>
+          <span class="skill-pill accent-pill">Chat Automation</span>
+          <span class="skill-pill accent-pill">Data Pipelines</span>
+          <span class="skill-pill accent-pill">Business Logic</span>
+          <span class="skill-pill accent-pill">Real-time Triggers</span>
+          <span class="skill-pill accent-pill">System Architecture</span>
+          <span class="skill-pill accent-pill">Customer Support AI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FLOATING WORK SHOWCASE ==================== -->
+  <section id="showcase" class="section section-dark">
+    <div class="container">
+      <div class="section-label reveal-up">// Live Systems</div>
+      <h2 class="section-heading centered reveal-up">Built &amp; <span class="accent">Deployed</span></h2>
+      <p class="section-sub centered reveal-up">Real workflows running in production. Not theory — actual systems.</p>
+    </div>
+    <div class="floating-cards-stage">
+      <div class="floating-card fc-1">
+        <div class="fc-badge">n8n · AI Agent</div>
+        <img src="images/project-1.jpg" alt="AI Inventory System" />
+        <div class="fc-label">AI Inventory System</div>
+      </div>
+      <div class="floating-card fc-2">
+        <div class="fc-badge">n8n · WhatsApp</div>
+        <img src="images/project-2.jpg" alt="Restaurant Management Bot" />
+        <div class="fc-label">Restaurant Management Bot</div>
+      </div>
+      <div class="floating-card fc-3">
+        <div class="fc-badge">RAG · Pinecone</div>
+        <img src="images/project-3.jpg" alt="Samsung RAG Support" />
+        <div class="fc-label">Samsung RAG Support</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS ==================== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label reveal-up">// Selected Work</div>
+      <h2 class="section-heading centered reveal-up">Projects That<br /><span class="accent">Ship &amp; Scale</span></h2>
+      <p class="section-sub centered reveal-up">Real systems built for real businesses — no demos, no mockups.</p>
+
+      <div class="projects-grid">
+
+        <!-- Project 01 -->
+        <div class="project-card" data-delay="0">
+          <div class="project-img-wrap">
+            <img src="images/project-1.jpg" alt="AI Inventory Management System" class="project-img" />
+          </div>
+          <div class="project-number">01</div>
+          <div class="project-tag-row">
+            <span class="project-tag">n8n</span>
+            <span class="project-tag">Google Sheets</span>
+            <span class="project-tag">AI Chat</span>
+          </div>
+          <h3 class="project-title">AI Inventory Management System</h3>
+          <p class="project-desc">
+            Chat-based inventory system where clients manage stock using simple natural language commands. Built on n8n
+            workflows with Google Sheets as the database backend — zero coding required for the end user.
+          </p>
+          <div class="project-footer">
+            <span class="project-result">↑ Reduced manual inventory time by ~80%</span>
+            <a href="https://github.com/sakin106/ai-automation-portfolio/blob/main/workflows/Inventory_Management.json"
+              target="_blank" rel="noopener" class="project-github-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              View Workflow
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 02 -->
+        <div class="project-card" data-delay="1">
+          <div class="project-img-wrap">
+            <img src="images/project-2.jpg" alt="Restaurant Management System" class="project-img" />
+          </div>
+          <div class="project-number">02</div>
+          <div class="project-tag-row">
+            <span class="project-tag">n8n</span>
+            <span class="project-tag">Telegram</span>
+            <span class="project-tag">WhatsApp</span>
+            <span class="project-tag">AI Agent</span>
+          </div>
+          <h3 class="project-title">Restaurant Management System</h3>
+          <p class="project-desc">
+            Fully chat-based AI assistant managing reservations, answering menu questions, and handling daily operations.
+            Deployable on WhatsApp, Telegram, or any messaging platform with real-time confirmations to staff and customers.
+          </p>
+          <div class="project-footer">
+            <span class="project-result">↑ Automated 100% of reservation handling</span>
+            <a href="https://github.com/sakin106/ai-automation-portfolio/blob/main/workflows/Restaurant_Management_Agent.json"
+              target="_blank" rel="noopener" class="project-github-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              View Workflow
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 03 — Wide -->
+        <div class="project-card project-card-wide" data-delay="2">
+          <div class="project-wide-inner">
+            <div class="project-wide-img">
+              <img src="images/project-3.jpg" alt="Samsung Device RAG Support System" class="project-img" />
+            </div>
+            <div class="project-wide-content">
+              <div class="project-number">03</div>
+              <div class="project-tag-row">
+                <span class="project-tag">RAG</span>
+                <span class="project-tag">Pinecone</span>
+                <span class="project-tag">Embeddings</span>
+                <span class="project-tag">OpenAI</span>
+              </div>
+              <h3 class="project-title">Samsung Device RAG Support System</h3>
+              <p class="project-desc">
+                Two-part AI customer support system using Pinecone vector database and custom embeddings — delivering
+                accurate, context-aware answers sourced directly from real Samsung product documentation. Built for accuracy at scale.
+              </p>
+              <div class="project-footer">
+                <span class="project-result">↑ 95%+ answer accuracy from real documentation</span>
+                <a href="https://github.com/sakin106/ai-automation-portfolio/blob/main/workflows/Customer_Support.json"
+                  target="_blank" rel="noopener" class="project-github-btn">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  View Workflow
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== WHY CHOOSE ME ==================== -->
+  <section id="why-me" class="section section-dark">
+    <div class="container">
+      <div class="section-label reveal-up">// The Difference</div>
+      <h2 class="section-heading centered reveal-up">Why Clients Choose<br /><span class="accent">Working With Me</span></h2>
+      <p class="section-sub centered reveal-up">Not just another freelancer — a dedicated automation partner.</p>
+
+      <div class="compare-card reveal-up">
+        <div class="compare-col compare-me">
+          <div class="compare-header">
+            <span class="compare-logo">SBJ<span class="accent">.</span></span>
+            <span class="compare-name">Working With Sakin</span>
+          </div>
+          <ul class="compare-list">
+            <li><span class="compare-icon yes">✓</span> Custom-built workflow for your exact problem</li>
+            <li><span class="compare-icon yes">✓</span> n8n + OpenAI — no black-box tools</li>
+            <li><span class="compare-icon yes">✓</span> Async-friendly, timezone-flexible</li>
+            <li><span class="compare-icon yes">✓</span> Full documentation &amp; handover included</li>
+            <li><span class="compare-icon yes">✓</span> Revisions until it actually works</li>
+            <li><span class="compare-icon yes">✓</span> Direct communication, no middlemen</li>
+          </ul>
+        </div>
+        <div class="compare-divider"></div>
+        <div class="compare-col compare-others">
+          <div class="compare-header">
+            <span class="compare-others-icon">≠</span>
+            <span class="compare-name">Other Freelancers</span>
+          </div>
+          <ul class="compare-list">
+            <li><span class="compare-icon no">✗</span> Copy-paste template workflows</li>
+            <li><span class="compare-icon no">✗</span> Lock you into expensive SaaS tools</li>
+            <li><span class="compare-icon no">✗</span> Slow response, missed deadlines</li>
+            <li><span class="compare-icon no">✗</span> Deliver &amp; disappear</li>
+            <li><span class="compare-icon no">✗</span> Extra charge for every revision</li>
+            <li><span class="compare-icon no">✗</span> Account managers between you &amp; the work</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SOCIAL PROOF ==================== -->
+  <section id="social-proof" class="section">
+    <div class="container">
+      <div class="section-label reveal-up">// By The Numbers</div>
+      <h2 class="section-heading centered reveal-up">The Work <span class="accent">Speaks</span></h2>
+
+      <div class="proof-grid">
+        <div class="proof-card reveal-up" data-delay="0">
+          <div class="proof-number accent">3+</div>
+          <div class="proof-label">AI Systems Deployed</div>
+          <div class="proof-sub">Inventory · Restaurant · RAG Support</div>
+        </div>
+        <div class="proof-card reveal-up" data-delay="1">
+          <div class="proof-number">10+</div>
+          <div class="proof-label">Tools Mastered</div>
+          <div class="proof-sub">n8n · OpenAI · Pinecone · Zapier · Redis</div>
+        </div>
+        <div class="proof-card reveal-up" data-delay="2">
+          <div class="proof-number accent">100%</div>
+          <div class="proof-label">Completion Rate</div>
+          <div class="proof-sub">Every project started gets finished</div>
+        </div>
+        <div class="proof-card reveal-up" data-delay="3">
+          <div class="proof-number">24h</div>
+          <div class="proof-label">Response Time</div>
+          <div class="proof-sub">Always within one business day</div>
+        </div>
+      </div>
+
+      <div class="proof-cta reveal-up">
+        <a href="https://github.com/sakin106" target="_blank" rel="noopener" class="btn btn-ghost magnetic-btn">
+          <span>View GitHub →</span>
+        </a>
+        <a href="https://linkedin.com/in/sakin-byaws" target="_blank" rel="noopener" class="btn btn-ghost magnetic-btn">
+          <span>LinkedIn Profile →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="section-label reveal-up">// Get In Touch</div>
+      <h2 class="section-heading centered reveal-up">Have a Project<br /><span class="accent">In Mind?</span></h2>
+      <p class="section-sub centered reveal-up">Let's talk about how automation can save your team hours every week.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal-up">
+          <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <!-- REPLACE with your real email below -->
+            <a href="mailto:sakinbinjabed@gmail.com" class="contact-link">sakinbinjabed@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">WhatsApp</span>
+            <!-- REPLACE with your real WhatsApp number -->
+            <a href="https://wa.me/8801755533999" target="_blank" rel="noopener" class="contact-link">+880 1755 533999</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">LinkedIn</span>
+            <a href="https://linkedin.com/in/sakin-byaws" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/sakin-byaws</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/sakin106" target="_blank" rel="noopener" class="contact-link">github.com/sakin106</a>
+          </div>
+          <div class="contact-note">
+            <p>Pricing is based on project scope.<br />I'll get back to you within 24 hours.</p>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@company.com" required autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Project Description</label>
+            <textarea id="message" name="message" rows="5"
+              placeholder="Tell me about your project, your current process, and what you'd like to automate..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full magnetic-btn" id="submit-btn">
+            <span>Send Message →</span>
+          </button>
+          <div class="form-success" id="form-success">
+            ✓ Message sent! I'll get back to you within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer id="footer">
+    <div class="footer-brand-bg">
+      <span class="footer-brand-text">SBJ</span>
+    </div>
+    <div class="container footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">SBJ<span class="accent">.</span></a>
+          <p class="footer-tagline">Building AI systems that<br />actually work.</p>
+        </div>
+        <div class="footer-links">
+          <span class="footer-label">Navigation</span>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Work</a>
+          <a href="#why-me">Why Me</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <span class="footer-label">Connect</span>
+          <a href="mailto:sakin5140@gmail.com">Email</a>
+          <a href="https://wa.me/8801718596860" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://linkedin.com/in/sakin-byaws" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/sakin106" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Sakin Bin Jabed. All rights reserved.</span>
+        <span class="footer-built">Built with precision ⚡</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Files — loaded at bottom so DOM is ready -->
+  <script src="js/main.js"></script>
+  <script src="js/cursor.js"></script>
+
+</body>
+</html>
